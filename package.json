@@ -116,4 +116,7 @@
     "mongoose": "^8.15.2",
     "redis": "^4.7.1"
   }
+"scripts": {
+  "build": "tsc",
+  "start": "npm run build && node ./dist/server.js"
 }
